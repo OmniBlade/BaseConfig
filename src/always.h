@@ -51,6 +51,7 @@
 #define u_strcasecmp(x, y, z) _wcsicmp(x, y)
 #define u_isspace iswspace
 #define u_tolower towlower
+#define u_strchr wcschr
 #define U_COMPARE_CODE_POINT_ORDER 0x8000
 #endif
 
